@@ -1,0 +1,93 @@
+/* Reset de márgenes y padding para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo básico para el body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Contenedor principal de la sección */
+.personaje {
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Título principal */
+.titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Contenedor principal con flex-direction column para organizar los elementos verticalmente */
+.contenido {
+    display: flex;
+    flex-direction: column; /* Acomoda las descripciones en una columna */
+    justify-content: center;
+    align-items: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre cada descripción */
+}
+
+
+/* Imagen del personaje */
+.foto img {
+    width: 100%; /* Hace que la imagen ocupe el 100% del contenedor */
+    max-width: 500px; /* Limita el tamaño máximo a 500px */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Contenedor principal con flex-direction column para organizar los elementos verticalmente */
+.contenido {
+    display: flex;
+    flex-direction: column; /* Acomoda las descripciones en una columna */
+    justify-content: center;
+    align-items: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre cada descripción */
+}
+
+/* Estilo común para todas las descripciones */
+.descripcion, .des, .descrip {
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Espacio entre las descripciones */
+}
+
+/* Si deseas, puedes agregar estilos diferentes para cada clase si es necesario */
+
+
+.descripcion, .des, .descrip p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.descripcion strong {
+    color: #007bff;
+}
+
+.des strong {
+    color: #007bff;
+}
+
+.descrip strong {
+    color: #007bff;
+}
